@@ -1,6 +1,9 @@
 # Getting-and-Cleaning-Data
 This is the repository of the course project for getting and cleaning data. 
-## Download the data
+I have used the comments in the R script as headers here. 
+
+
+# Download the data
 This section downloads the data from the website provided in the project
 It then unzips the file to extract folders
 
