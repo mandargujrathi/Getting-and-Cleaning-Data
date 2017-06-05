@@ -1,4 +1,4 @@
-## Download the data set
+# Download the data set
 
 download.file('https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip', destfile = 'activity.zip');
 unzip('activity.zip')
@@ -28,11 +28,11 @@ subjects <- rbind(subtrain,subtest)
 # Extract mean and std deviation
 mnstd <- grepl("mean|std",features[,2])
 
-## Extracting total data on features
+# Extracting total data on features
 TDataXmeas <- DataX[,features[,2][mnstd]]
 
 
-## Extracting training and testing data on features. 
+# Extracting training and testing data on features. 
 Trainmeas <- Xtrain[,features[,2][mnstd]]
 Testmeas <- Xtst[,features[,2][mnstd]]
 
