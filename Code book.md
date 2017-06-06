@@ -1,8 +1,8 @@
 The variables created in the code are
 
-labels: Activity labels
+_labels_: Activity labels
 
-features: Feature names (measurements)
+_features_: Feature names (measurements)
 
 Xtst: Test data for X (measurements)
 
