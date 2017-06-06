@@ -33,13 +33,13 @@ Indexing this variable on the features will allow us to select features whose na
 
 **DataYact**: combined ytrain and ytst data
 
-**A**: The variable which contains the aggregate results of mean of selected measurement per subject for each activity. 
+**A1**: The variable which contains the aggregate results of mean of selected measurement per subject for each activity. 
 
 
-The  names of the variables in result1.txt are as follows. 
+The  names of the variables in result2.txt are as follows. 
 
- [1] "Subjects"                                          
- [2] "Activity"                                          
+ [1] "Activity"                                          
+ [2] "Subjects"                                          
  [3] "TimeBodyAccelerometer-mean()-X"                    
  [4] "TimeBodyAccelerometer-mean()-Y"                    
  [5] "TimeBodyAccelerometer-mean()-Z"                    
