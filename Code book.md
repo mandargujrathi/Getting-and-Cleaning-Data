@@ -37,6 +37,7 @@ Indexing this variable on the features will allow us to select features whose na
 
 
 The  names of the variables in result1.txt are as follows. 
+
  [1] "Subjects"                                          
  [2] "Activity"                                          
  [3] "TimeBodyAccelerometer-mean()-X"                    
