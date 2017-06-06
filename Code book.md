@@ -1,39 +1,39 @@
 The variables created in the code are
 
-_labels_: Activity labels
+**labels**: Activity labels
 
-_features_: Feature names (measurements)
+**features**: Feature names (measurements)
 
-Xtst: Test data for X (measurements)
+**Xtst**: Test data for X (measurements)
 
-ytst: Test Data for Y ( activitity numbers, activity names added later as second column)
+**ytst**: Test Data for Y ( activitity numbers, activity names added later as second column)
 
-Xtrain: Training Data for X (measurements)
+**Xtrain**: Training Data for X (measurements)
 
-ytrain: Training data for Y ( activitity numbers, activity names added later as second column)
+**ytrain**: Training data for Y ( activitity numbers, activity names added later as second column)
 
-subtest: Subjects chosen for test set
+**subtest**: Subjects chosen for test set
 
-subtrain: Subjects chosen for training set
+**subtrain**: Subjects chosen for training set
 
-DataX: Xtrain and Xtst data combined
+**DataX**: Xtrain and Xtst data combined
 
-DataY: ytrain and ytst data combined
+**DataY**: ytrain and ytst data combined
 
-subjects: Test and train subjects combined
+**subjects**: Test and train subjects combined
 
-mnstd: Logical variable which has mean and std string in the feature names
+**mnstd**: Logical variable which has mean and std string in the feature names
 Indexing this variable on the features will allow us to select features whose names which have mean and std in them.
 
-TDataXmeas: Xtrain and Xtst data with selected features
+**TDataXmeas**: Xtrain and Xtst data with selected features
 
-Trainmeas: Xtrain data with selected features
+**Trainmeas**: Xtrain data with selected features
 
-Testmeas: Xtest data with selected features
+**Testmeas**: Xtest data with selected features
 
-DataYact: combined ytrain and ytst data
+**DataYact**: combined ytrain and ytst data
 
-A: The variable which contains the aggregate results of mean of selected measurement per subject for each activity. 
+**A**: The variable which contains the aggregate results of mean of selected measurement per subject for each activity. 
 
 
 The  names of the variables in result1.txt are as follows. 
