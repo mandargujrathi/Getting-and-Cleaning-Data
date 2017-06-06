@@ -55,11 +55,12 @@ names(TDataXmeas)<-gsub("BodyBody", "Body", names(TDataXmeas))
 
 
 # Separate table for mean of activity per subject. 
-A <- aggregate(TDataXmeas[,1:length(TDataXmeas)], list(subjects[,1],DataYact[,2]), mean)
-newnames = append("Activity", as.character(names(TDataXmeas)));
-newnames = append("Subjects", as.character(newnames));
-colnames(A) = newnames;
-write.table(A,file = "result1.txt", sep = " ", row.names =FALSE)
+A1 <- aggregate(TDataXmeas[,1:length(TDataXmeas)], list(DataYact[,2], subjects[,1]), mean)
+newnames = append("Subjects", as.character(names(TDataXmeas)));
+newnames = append("Activity", as.character(newnames));
+colnames(A1) = newnames;
+write.table(A1,file = "result2.txt", sep = " ", row.names =FALSE)
+
 
 
 
